@@ -1,13 +1,17 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
 }
 
 .hero {
   background: #374375;
   color: #fffcf5;
-  height: 100vh;
-  width: 100%;
 }
 .navbar {
   padding: 1rem;
@@ -19,7 +23,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2rem;
+  padding: 2rem;
 }
 
 .mainText {
@@ -45,7 +49,7 @@
 .cta button {
   padding: 1rem;
   border-radius: 1rem;
-  border: none;
+  border: 2px solid #dfaea1;
   font-size: 1rem;
   font-weight: 700;
   margin: 0 1rem;
@@ -55,7 +59,6 @@
 }
 
 .cta button:hover {
-  background: #000;
   transition: cubic-bezier(0.39, 0.575, 0.565, 1);
   transform: scale(1.03);
   transition: all 2s ease;
@@ -68,6 +71,17 @@
   color: #fffcf5;
 }
 
+.btn1:hover {
+  background: #dfaea1;
+  color: #232b4d;
+  border: 2px solid #dfaea1;
+}
+
+.btn2:hover {
+  background: #374375;
+  color: #fffcf5;
+}
+
 .profile {
   margin: 2rem 0;
 }
@@ -76,4 +90,49 @@
   position: relative;
   width: 20rem;
   height: auto;
+  border-radius: 7rem 7rem 1rem 1rem;
+  border: 5px solid #dfaea1;
+}
+
+.about {
+  background: #bebde2;
+}
+
+.project {
+  background: #374375;
+}
+
+.footer {
+  background: #151a30;
+  height: 30vh;
+  width: 100%;
+  color: #e7e9f7;
+}
+
+.footer .footerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #dfaea1;
+}
+.footer .footerText p {
+  margin-top: 0.5rem;
+  color: #d8dbe9;
+}
+
+.footer .socials {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer a > .bxl {
+  font-size: 3rem;
+  padding: 2rem;
+  color: #d8dbe9;
+  transition: all 2s ease;
+}
+.footer a > .bxl:hover {
+  color: #fff;
+  transition: all 2s ease;
 }
