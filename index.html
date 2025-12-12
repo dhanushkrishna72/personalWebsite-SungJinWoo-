@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.boxicons.com/3.0.6/fonts/basic/boxicons.min.css' rel='stylesheet'>
     <link href='https://cdn.boxicons.com/3.0.6/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
 </head>
 
 <body>
     <section class="hero">
         <nav class="navbar">
-            <h3 class="nav_logo">Hadhaan</h3>
+            <a href="https://hadhaan.com">
+                <h3 class="nav_logo">Hadhaan</h3>
+            </a>
         </nav>
         <div class="container">
             <div class="mainText">
@@ -21,15 +24,15 @@
                 <h3>Shadow Monarch</h3>
             </div>
             <div class="cta">
-                <a href=""><button class="btn1">Download CV</button></a>
-                <a href=""><button class="btn2">About Me</button></a>
+                <a href="https://hero.fandom.com/wiki/Sung_Jinwoo"><button class="btn1">Download CV</button></a>
+                <a href="https://solo-leveling.fandom.com/wiki/Sung_Jinwoo"><button class="btn2">About Me</button></a>
             </div>
             <div class="profile">
                 <img src="src/img/mainPfp.webp" alt="sung jin woo">
             </div>
         </div>
     </section>
-    <section class="about">
+    <!-- <section class="about">
         <div class="container">
             <div class="aboutText">
                 <h3>my intro</h3>
@@ -39,9 +42,18 @@
                 <div class="left"></div>
                 <div class="right">
                     <div class="cardCompartment">
-                        <div class="card"></div>
-                        <div class="card"></div>
-                        <div class="card"></div>
+                        <div class="card">
+                            <i class='bxl  bxs-education'></i>
+                            <p>2+ Years of Consistent Growth</p>
+                        </div>
+                        <div class="card">
+                            <i class='bxl  bxs-briefcase' style='color:#d8dbe9'></i>
+                            <p>18+ Finished Missions</p>
+                        </div>
+                        <div class="card">
+                            <i class='bxl  bxs-headphone-mic' style='color:#d8dbe9'></i>
+                            <p>1200+ Hours of Discipline</p>
+                        </div>
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore reiciendis soluta incidunt
                         repellendus amet omnis, vero perspiciatis a adipisci recusandae consequatur earum? Asperiores
@@ -50,8 +62,64 @@
                 </div>
             </div>
         </div>
+    </section> -->
+    <section class="project">
+        <div class="container">
+            <div class="aboutText">
+                <h3>My Portfolio</h3>
+                <h2>Recent Works</h2>
+            </div>
+            <div class="cardCompartment">
+                <div class="card">
+                    <img class="cardImg" src="src/img/project1.jpeg" alt="">
+                    <h2 class="cardTitle">Shadow Army System</h2>
+                    <p class="cardPara">A scalable, command system capable of deploying thousands of
+                        units in parallel.
+                    </p>
+                    <a href=""><button class="cardBtn">Checkout</button></a>
+                </div>
+                <div class="card">
+                    <img class="cardImg" src="src/img/project2.jpeg" alt="">
+                    <h2 class="cardTitle">Cross-Realm Stabilizer</h2>
+                    <p class="cardPara">A reinforcement framework that keeps borders between realms steady during large
+                        events.
+                    </p>
+                    <a href=""><button class="cardBtn">Checkout</button></a>
+                </div>
+                <div class="card">
+                    <img class="cardImg" src="src/img/project3.jpeg" alt="">
+                    <h2 class="cardTitle">Solo Leveling Protocol</h2>
+                    <p class="cardPara">A self-growth engine that upgrades capabilities based on completed tasks and
+                        experience.
+                    </p>
+                    <a href=""><button class="cardBtn">Checkout</button></a>
+                </div>
+                <div class="card">
+                    <img class="cardImg" src="src/img/project4.jpeg" alt="">
+                    <h2 class="cardTitle">Monarch Suppression </h2>
+                    <p class="cardPara">A multi-stage threat-neutralization plan designed to stabilize high-risk
+                        domains.
+                    </p>
+                    <a href=""><button class="cardBtn">Checkout</button></a>
+                </div>
+                <div class="card">
+                    <img class="cardImg" src="src/img/project5.jpeg" alt="">
+                    <h2 class="cardTitle">Gate Prediction Model</h2>
+                    <p class="cardPara">A forecasting system that analyzes dimensional fluctuations and anticipates gate
+                        openings.
+                    </p>
+                    <a href=""><button class="cardBtn">Checkout</button></a>
+                </div>
+                <div class="card">
+                    <img class="cardImg" src="src/img/project6.jpeg" alt="">
+                    <h2 class="cardTitle">Dungeon Automation System</h2>
+                    <p class="cardPara">A streamlined pipeline for raid management, resource allocation, and clean-up.
+                    </p>
+                    <a href=""><button class="cardBtn">Checkout</button></a>
+                </div>
+            </div>
+        </div>
     </section>
-    <section class="project"></section>
     <section class="footer">
         <div class="container">
             <div class="footerText">
@@ -59,9 +127,9 @@
                 <p>"Level up quietly. Let your growth make the noise."</p>
             </div>
             <div class="socials">
-                <a href=""><i class='bxl  bx-github'></i></a>
+                <a href="https://github.com/dhanushkrishna72"><i class='bxl  bx-github'></i></a>
 
-                <a href=""><i class='bxl  bx-linkedin-square'></i></a>
+                <a href="https://www.linkedin.com/in/dhanush-k-aka-matrix/"><i class='bxl  bx-linkedin-square'></i></a>
 
                 <a href=""><i class='bxl  bx-youtube'></i></a>
 
@@ -69,6 +137,8 @@
             </div>
         </div>
     </section>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
