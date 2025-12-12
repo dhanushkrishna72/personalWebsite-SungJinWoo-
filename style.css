@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background: #374375;
+  color: #fffcf5;
+  height: 100vh;
+  width: 100%;
+}
+.navbar {
+  padding: 1rem;
+  color: #d8dbe9;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.mainText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.mainText h3 {
+  font-size: 1.4rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.mainText h2 {
+  font-size: 3rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 28px 0;
+  line-height: 0;
+}
+
+.cta button {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 1rem;
+  width: 12rem;
+  color: #232b4d;
+  background: #dfaea1;
+}
+
+.cta button:hover {
+  background: #000;
+  transition: cubic-bezier(0.39, 0.575, 0.565, 1);
+  transform: scale(1.03);
+  transition: all 2s ease;
+  transform: translateY(0);
+}
+
+.cta .btn1 {
+  background: #374375;
+  border: 2px solid #dfaea1;
+  color: #fffcf5;
+}
+
+.profile {
+  margin: 2rem 0;
+}
+
+.profile img {
+  position: relative;
+  width: 20rem;
+  height: auto;
+}
